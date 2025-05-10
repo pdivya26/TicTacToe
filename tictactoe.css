@@ -56,35 +56,28 @@ h1 {
     background-color: olivedrab;
     color: white;
     border-radius: 0.5rem;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 #msg {
+    padding: 5% 0;
     color: white;
     font-size: 7vmin;
-    margin: 10px;
 }
 
 .msg-container {
-    height: 35vmin;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    height: 40vmin;
     width: 85vmin;
     border-radius: 10px;
     background-color: #745746;
     position: fixed;
-    left: 15%;
-    top: 30%;
     margin: auto;
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.5);
-}
-
-#close {
-    position: relative;
-    top: 8px;
-    left: 315px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    color: #432818;
 }
 
 #close:hover {
