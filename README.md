@@ -22,3 +22,5 @@ A simple 2-player Tic Tac Toe game built with HTML, CSS, and JavaScript. Players
 ![image](https://github.com/user-attachments/assets/6a83ce48-34fb-4eb9-b947-55a922a27e72)
 
 ![image](https://github.com/user-attachments/assets/8330cfb7-bda8-4f3e-979d-c2f8525c2ac4)
+
+![image](https://github.com/user-attachments/assets/208916a5-6040-4c59-8faf-f6b999df0c8e)
