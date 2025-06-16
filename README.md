@@ -1,6 +1,8 @@
 # Tic Tac Toe 
 A simple 2-player Tic Tac Toe game built with HTML, CSS, and JavaScript. Players take turns to mark X or O in the grid. The game checks for a win or tie after each move. When a player wins or a tie occurs, a centered dialog box pops up showing the result. You can reset the game using buttons or automatically when the dialog is closed. This is a vanilla JavaScript project — no external libraries or frameworks are used, making it lightweight and beginner-friendly.
 
+[**Check it out here!**](https://pdivya26.github.io/TicTacToe/)
+
 ## Tech Stack
 
 - HTML:	Structure of the game board and UI elements
