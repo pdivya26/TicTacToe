@@ -48,6 +48,9 @@ h1 {
     background-color: maroon;
     color: white;
     border-radius: 0.5rem;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 #nwgm {
@@ -56,8 +59,9 @@ h1 {
     background-color: olivedrab;
     color: white;
     border-radius: 0.5rem;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 10px 0 15px 0;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 #msg {
@@ -70,6 +74,7 @@ h1 {
     position: fixed;
     top: 30%;
     left: 30%;
+    right: 30%;
     height: 40vmin;
     width: 85vmin;
     border-radius: 10px;
@@ -80,10 +85,126 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.5);
 }
 
+/* #close {
+    position: relative;
+    top: 8px;
+    left: 315px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #432818;
+} */
+
 #close:hover {
     color: red;
 }
 
 .hide {
     display: none;
+}
+
+/* Media Queries */
+
+/* Laptop (≤ 1024px) */
+@media screen and (max-width: 1024px) {
+    #msg {
+        margin: 55px auto 45px auto;
+    }
+
+    .msg-container {
+        top: 36%;
+        left: 24%;
+    }
+}
+
+/* Tablet (≤ 768px) */
+@media screen and (max-width: 768px) {
+    #msg {
+        margin: 45px auto 35px auto;
+    }
+
+    .msg-container {
+        top: 36%;
+        left: 16%;
+    }
+
+    #nwgm {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* Large Mobile (≤ 475px) */
+@media screen and (max-width: 475px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #msg {
+        margin: 15px auto 15px auto;
+    }
+
+    .container {
+        height: 60vh;
+    }
+
+    .game {
+        height: 70vmin;
+        width: 70vmin;
+    }
+
+    .msg-container {
+        top: 38%;
+        left: 20%;
+        height: 40vmin;
+        width: 60vmin;
+    }
+
+    #nwgm {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    #reset {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+}
+
+/* Small Mobile (≤ 320px) */
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #msg {
+        margin: 5px auto ;
+    }
+
+    .container {
+        height: 60vh;
+    }
+
+    .game {
+        height: 70vmin;
+        width: 70vmin;
+    }
+
+    .msg-container {
+        top: 38%;
+        left: 20%;
+        height: 40vmin;
+        width: 60vmin;
+    }
+
+    #nwgm {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    #reset {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
 }
